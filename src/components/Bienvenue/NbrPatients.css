@@ -1,0 +1,47 @@
+.chart-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+width: 60%;
+
+background-color: #fff;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .legend-item {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+
+  
+  .select-frequency {
+    margin-left: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  .elkalaa {
+    display: flex;
+    flex-direction: row;
+    align-items: center center;
+    justify-content: space-between;
+    
+    
+  }
+  

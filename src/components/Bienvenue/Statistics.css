@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Statistics {
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  
+  .stat-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 162px;
+height: 99px;
+gap: 0px;
+opacity: 0px;
+margin-right: 3%;
+padding-bottom: 0;
+
+
+  }
+  
+  .stat-label {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+    
+    
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+font-weight: 500;
+line-height: 17.07px;
+text-align: left;
+padding-bottom: 10px;
+
+  }
+  
+  .stat-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .stat-icon {
+    font-size: 24px;
+  }
+  
+  /* Placeholder icon classes */
+  .icon-patients::before {
+    content: '👥';
+  }
+  
+  .icon-staff::before {
+    content: '👤';
+  }
+  
+  .icon-exams::before {
+    content: '📝';
+  }
+  
+  /* .icon-fees::before {
+    content: '💰';
+  }
+  
+  .icon-gains::before {
+    content: '📈';
+  } */
+  .dtt {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  

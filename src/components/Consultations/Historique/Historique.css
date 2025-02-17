@@ -1,0 +1,52 @@
+.seconderight {
+    flex: 1;
+    padding: 20px;
+    background: #ffffff;
+    margin-left: 250px; /* Add margin to the left to make space for the fixed sidebar */
+    padding: 20px;
+    width: calc(100% - 290px); /* Adjust width to not overlap with sidebar */
+    background-color: #ffffff;
+  }
+
+  .back-linkK {
+    color:rgba(163, 174, 208, 1);
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 1%;
+    margin-bottom: 30px;
+
+}
+
+.back-linkK:hover {
+    text-decoration: underline;
+}
+
+.back-linkK {
+    display: flex;
+    align-items: center;
+}
+
+.back-linkK img {
+    margin-right: 8px; /* Adjust as needed */
+}
+
+.back-linkK a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:rgba(163, 174, 208, 1);
+
+    
+
+}
+
+.back-linkK a:hover {
+    text-decoration: underline;
+}
+

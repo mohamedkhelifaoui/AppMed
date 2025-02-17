@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.ContainerPP {
+    flex: 1;
+    padding: 20px;
+    background: #ffffff;
+    margin-left: 250px; /* Add margin to the left to make space for the fixed sidebar */
+    padding: 20px;
+    width: calc(100% - 290px); /* Adjust width to not overlap with sidebar */
+    background-color: #ffffff;
+  }
+  .ContainerPP .sppp {
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.02em;
+text-align: left;
+padding: 10px 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+  }
+  .dropzp {
+    padding: 10px 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: rgba(251, 251, 251, 1);
+
+  }

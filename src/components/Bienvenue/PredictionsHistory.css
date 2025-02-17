@@ -1,0 +1,65 @@
+.history-container {
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h2 {
+    color: #333;
+  }
+  
+  .view-all {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  th {
+    color: #666;
+  }
+  
+  .patient-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .patient-info .avatar {
+    width: 30px;
+    height: 30px;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .more-options {
+    cursor: pointer;
+    font-size: 20px;
+    color: #999;
+  }
+  

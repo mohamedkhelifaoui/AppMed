@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.table-container {
+    font-family: "Inter", sans-serif;
+
+    margin: 40px;
+    font-family: Arial, sans-serif;
+    width: 50%;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f9f9f9;
+  }
+  
+  .status {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .status.good {
+    color: green;
+  }
+  
+  .status.danger {
+    color: red;
+  }
+  
+  .percentage {
+    margin-right: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  .progress {
+    height: 8px;
+  }
+  
+  .progress.good {
+    background-color: green;
+  }
+  
+  .progress.danger {
+    background-color: red;
+  }
+  .containeeer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  

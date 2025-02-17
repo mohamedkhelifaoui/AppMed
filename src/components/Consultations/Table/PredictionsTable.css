@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap');
+
+.predictions-table-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+
+}
+
+.predictions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+
+.predictions-table th, .predictions-table td {
+  /* border: 1px solid #ddd; */
+  /* padding: 12px 15px; */
+  text-align: center;
+
+}
+
+.predictions-table th {
+  background-color: #f9f9f9;
+  /* font-weight: bold; */
+}
+.iinfo {
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+color: 
+rgba(43, 54, 116, 1);
+
+}
+
+.status-malignant {
+  color: red;
+  font-weight: bold;
+}
+
+.status-benign {
+  color: green;
+  font-weight: bold;
+}
+
+.consult-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100px;
+  
+}
+
+.consult-button:hover {
+  background-color: #0056b3;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-family: Inter;
+font-size: 15px;
+font-weight: 600;
+line-height: 18.15px;
+text-align: left;
+
+
+  
+}
+
+.pagination span {
+  margin: 0 5px;
+  color: #007bff;
+  
+
+}
+
+.page-numbers {
+  display: flex;
+  align-items: center;
+  
+  
+  
+}
+
+.page-numbers span {
+  margin: 0 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.page-numbers span.active-page {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.page-numbers span:hover {
+  background-color: #ddd;
+}
+
+.page-numbers .next-page {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #007bff;
+}
+/* vshdjkfhdskfjhdsfkjsdhkjhfkjshf */
+/* hfkjdshgsdjkhgdskjghdsjk */
+/* footer */
+

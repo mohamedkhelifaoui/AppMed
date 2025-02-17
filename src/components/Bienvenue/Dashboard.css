@@ -1,0 +1,16 @@
+.dashboard {
+    flex: 1;
+    padding: 20px;
+    background: #ffffff;
+    margin-left: 250px; /* Add margin to the left to make space for the fixed sidebar */
+    padding: 20px;
+    width: calc(100% - 250px); /* Adjust width to not overlap with sidebar */
+    background-color: #ffffff;
+  }
+
+.elkala {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+  
